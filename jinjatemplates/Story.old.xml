@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.1">
+	<Story Self="udc" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Table Self="udcif2" HeaderRowCount="1" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="{{ d|length }}" ColumnCount="7" AppliedTableStyle="TableStyle/$ID/[Basic Table]" TableDirection="LeftToRightDirection">
+					<Row Self="udcif2Row0" Name="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="160.723876953125" />
+					{% for f in d %}<Row Self="udcif2Row{{loop.index}}" Name="{{loop.index}}" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" MinimumHeight="{{f.ratio*59*2.8346456692913386440677966101695}}" AutoGrow="true" />{% endfor %}
+
+					<Column Self="udcif2Column0" Name="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="54.20866141727919" />
+					<Column Self="udcif2Column1" Name="1" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="73.13385826771655" />
+					<Column Self="udcif2Column2" Name="2" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="83.9055118110236" />
+					<Column Self="udcif2Column3" Name="3" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="167.24409448818898" />
+					<Column Self="udcif2Column4" Name="4" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="167.24409448818898" />
+					<Column Self="udcif2Column5" Name="5" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="167.24409448818898" />
+					<Column Self="udcif2Column6" Name="6" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="42.870078740113925" />
+					<Cell Self="udcif2i0" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Code</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2i1" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Area</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2i2" Name="2:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Material</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2i3" Name="3:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Finish</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2i4" Name="4:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Image</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2i5" Name="5:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Supplier</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2i6" Name="6:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Rev</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					{% for f in d %}
+					<Cell Self="udcif2i7" Name="0:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{{f.CODE}}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2i8" Name="1:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{{f.AREA|replace("&","&amp;")}}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2i9" Name="2:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content></Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2ia" Name="3:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{% if f.FIN_PRODUCT %}Product: {{f.FIN_PRODUCT|replace("&","&amp;")}}
+{% endif %}{% if f.FIN_FINISH %}Finish: {{f.FIN_FINISH|replace("&","&amp;")}}
+{% endif %}{% if f.FIN_COLOUR %}Colour: {{f.FIN_COLOUR|replace("&","&amp;")}}
+{% endif %}{% if f.FIN_CODE %}Code: {{f.FIN_CODE|replace("&","&amp;")}}
+{% endif %}{% if f.FIN_SIZE %}Size: {{f.FIN_SIZE|replace("&","&amp;")}}
+{% endif %}{% if f.FIN_NOTES %}Notes: {{f.FIN_NOTES|replace("&","&amp;")}}
+{% endif %}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					{% if f.ADDRESS %}<Cell Self="udcif2ib" Name="4:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="GraphicTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<Rectangle Self="u105" ContentType="GraphicType" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 0 0">
+							<Properties>
+								<PathGeometry>
+									<GeometryPathType PathOpen="false">
+										<PathPointArray>
+											<PathPointType Anchor="0 0" LeftDirection="0 0" RightDirection="0 0" />
+											<PathPointType Anchor="0 {{f.ratio*59*2.8346456692913386440677966101695}}" LeftDirection="0 {{f.ratio*59*2.8346456692913386440677966101695}}" RightDirection="0 {{f.ratio*59*2.8346456692913386440677966101695}}" />
+											<PathPointType Anchor="166.24409448818898 {{f.ratio*59*2.8346456692913386440677966101695}}" LeftDirection="166.24409448818898 {{f.ratio*59*2.8346456692913386440677966101695}}" RightDirection="166.24409448818898 {{f.ratio*59*2.8346456692913386440677966101695}}" />
+											<PathPointType Anchor="166.24409448818898 0" LeftDirection="166.24409448818898 0" RightDirection="166.24409448818898 0" />
+										</PathPointArray>
+									</GeometryPathType>
+								</PathGeometry>
+							</Properties>
+							<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+								<Properties>
+									<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+								</Properties>
+								<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+							</TextWrapPreference>
+							<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+							<FrameFittingOption AutoFit="true" FittingOnEmptyFrame="Proportionally" />
+							<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+								<Properties>
+									<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+									<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+								</Properties>
+							</ObjectExportOption>
+							<Image Self="uff" Space="$ID/#Links_RGB" ActualPpi="72 72" EffectivePpi="1912 1912" ImageRenderingIntent="UseColorSettings" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/JPEG" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.03765484619140625 0 0 0.03765484619140625 60.52913952925074 -1.7763568394002505e-15" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" Visible="true" Name="$ID/">
+								<Properties>
+									<Profile type="string">$ID/None</Profile>
+									<GraphicBounds Left="0" Top="0" Right="1200" Bottom="800" />
+								</Properties>
+								<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+									<Properties>
+										<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+									</Properties>
+									<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+								</TextWrapPreference>
+								<Link Self="u102" AssetURL="$ID/" AssetID="$ID/" LinkResourceURI="file:{{f.ADDRESS|replace(' ', '%20')|replace('&', '%26')}}" LinkResourceFormat="$ID/JPEG" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 131672990476360094 115331" LinkImportModificationTime="2018-04-04T17:04:07" LinkImportTime="2018-04-17T12:18:56" LinkResourceSize="0~1c283" />
+								<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+								<ImageIOPreference ApplyPhotoshopClippingPath="true" AllowAutoEmbedding="true" AlphaChannelName="$ID/" />
+							</Image>
+						</Rectangle>
+</Cell>{% else %}<Cell Self="udcif2ib" Name="4:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>No Image</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>{% endif %}
+					<Cell Self="udcif2ic" Name="5:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{% if f.SUP_COMPANY %}{{f.SUP_COMPANY|replace("&","&amp;")}}
+{% endif %}{% if f.SUP_REP %}Rep: {{f.SUP_REP|replace("&","&amp;")}}
+{% endif %}{% if f.SUP_PH %}Ph: {{f.SUP_PH|replace("&","&amp;")}}
+{% endif %}{% if f.SUP_EMAIL %}Email: {{f.SUP_EMAIL|replace("&","&amp;")}}
+{% endif %}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="udcif2id" Name="6:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{{f.Rev}}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					{% endfor %}
+				</Table>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.1">
+	<Story Self="u552" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph Style 1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Content>EDITIONS AND REVISIONS FORMAT OF THIS DOCUMENT</Content>
+				<Br />
+				<Content>Revision indicators</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Br />
+				<Content>This document may be issued in one or more editions.  Each edition, whether original or revised, is identified by matching revision indicators in the file name and in the document footer.</Content>
+				<Br />
+				<Content>Revision indicators are either numerical series or alphabetical series according to the status of each edition as follows:</Content>
+				<Br />
+				<Content>-	Numerical series: Rev T01 begins the initial tender issue before advancing to the formal alphabetical series.</Content>
+				<Br />
+				<Content>-	Alphabetical series: Rev A begins the formal approved for construction (AFC) series on signing of the contract, then advances through B, C etc when revised and re-issued.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Content>Changes within revised editions</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Br />
+				<Content>Changes that are made in the latest and/or previous editions are indicated and identified as follows:</Content>
+				<Br />
+				<Content>-	If an item is added or amended in the latest edition, it is marked by the latest revision indicator appearing in the Rev column (e.g. T01).</Content>
+				<Br />
+				<Content>-	Changes of the legend in the latest edition are displayed as follows:</Content>
+				<Br />
+				<Content>	(The methods used are the selected option settings of “Track Changes” in Microsoft Word Vista)</Content>
+				<Br />
+				<Content>•	All editions display amended or additional text in italics while deleted text is struck through.</Content>
+				<Br />
+				<Content>•	The first AFC edition (Rev A) contains all changes carried forward from pre-AFC editions but does not identify those changes.  Subsequent amended AFC editions that contain changes display amended or additional text in italics while deleted text is struck through.</Content>
+				<Br />
+				<Content>-	When changes are made, the whole document is reissued as a revised latest edition.</Content>
+				<Br />
+				<Content>-	Changes in formatting, punctuation, spelling corrections and other minor matters are not identified unless substantive.</Content>
+				<Br />
+				<Content>-	Changes should always be fully comprehended by comparison with previous editions.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Content>REVISIONS &amp; ISSUES</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Content>Revisions</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Content> are a means of identifying and tracking changes to the document and a copy of every revision is kept for audit purposes. </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10">
+				<Content>Issues</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10">
+				<Content> are points in the process when the document is provided to an external party. </Content>
+				<Br />
+				<Content>An issue therefore can contain a number of revisions; similarly a single (unamended) revision can be part of several issues. Revisions and issues should therefore not be confused with each other.</Content>
+				<Br />
+				<Content>© Copyright  2005  Cox Architecture Pty Limited</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

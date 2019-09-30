@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.1">
+	<Story Self="u4da" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Table Self="u4dai4f1" HeaderRowCount="0" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="2" ColumnCount="3" AppliedTableStyle="TableStyle/$ID/[Basic Table]" TableDirection="LeftToRightDirection">
+					<Row Self="u4dai4f1Row0" Name="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="14.55224609375" />
+					<Row Self="u4dai4f1Row1" Name="1" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="14.55224609375" />
+					<Column Self="u4dai4f1Column0" Name="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="252.28346456690005" />
+					<Column Self="u4dai4f1Column1" Name="1" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="252.28346456690005" />
+					<Column Self="u4dai4f1Column2" Name="2" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="252.28346456690005" />
+					<Cell Self="u4dai4f1i0" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="0.5" BottomEdgeStrokeWeight="0" LeftEdgeStrokePriority="1" RightEdgeStrokePriority="1" TopEdgeStrokePriority="2" BottomEdgeStrokePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph Style 1">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold">
+								<Content>COX ARCHITECTURE</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u4dai4f1i1" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="0.5" BottomEdgeStrokeWeight="0" LeftEdgeStrokePriority="1" RightEdgeStrokePriority="1" TopEdgeStrokePriority="2" BottomEdgeStrokePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph Style 1" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Project No ######.##</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u4dai4f1i2" Name="2:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="0.5" BottomEdgeStrokeWeight="0" LeftEdgeStrokePriority="1" RightEdgeStrokePriority="1" TopEdgeStrokePriority="2" BottomEdgeStrokePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph Style 1" Justification="RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Page <?ACE 18?> of </Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable">
+								<TextVariableInstance Self="u4fb" Name="Last Page Number" ResultText="1" AssociatedTextVariable="dTextVariablenLast Page Number" />
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u4dai4f1i3" Name="0:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="0" LeftEdgeStrokePriority="1" RightEdgeStrokePriority="1" TopEdgeStrokePriority="1" BottomEdgeStrokePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph Style 1">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>STATUS: ----REPLACE----</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u4dai4f1i4" Name="1:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="0" LeftEdgeStrokePriority="1" RightEdgeStrokePriority="1" TopEdgeStrokePriority="1" BottomEdgeStrokePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph Style 1" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u4dai4f1i5" Name="2:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="0" LeftEdgeStrokePriority="1" RightEdgeStrokePriority="1" TopEdgeStrokePriority="1" BottomEdgeStrokePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph Style 1" Justification="RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold">
+								<Content>REV ##</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

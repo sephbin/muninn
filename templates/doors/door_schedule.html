@@ -1,0 +1,111 @@
+<style>
+*{
+	font-size: 10px;
+}
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 1px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+</style>
+<table>
+	<tr>
+		<th colspan="2">Location</th>
+		<th colspan="2">Door</th>
+		<th colspan="2">Frame</th>
+		<th colspan="2">Leaf</th>
+		<th colspan="8">Hardware and Furniture</th>
+		<th rowspan="2">Remarks</th>
+		<th rowspan="2">REV</th>
+	</tr>
+	<tr>
+		<th>Room Name & Number</th>
+		<th>From and To</th>
+		<th>Number</th>
+		<th>Type</th>
+		<th>Size (HxW)</th>
+		<th>Type</th>
+		<th>Size (HxWxT)</th>
+		<th>Type</th>
+		<th>Sign Panel</th>
+		<th>Protection</th>
+		<th>Handle</th>
+		<th>Hinge Type</th>
+		<th>Closer</th>
+		<th>Stop</th>
+		<th>Keying</th>
+		<th>Seal</th>
+	</tr>
+{% for room in context %}
+{% if room.data.Area > 0 and room.data.Level != ''%}
+<tr>
+	<td> {{room.room_name}}<br>{{room.data.Number}} </td>
+	{% if room.doors %}
+		{% for door in room.doors %}
+		{% if forloop.counter != 1 %}
+		</tr>
+		<tr>
+		<td></td>
+		{% endif%}
+		<td>{{door.data.Mark}}</td>
+		<td>{{door.from_room.data.number}}: {{door.from_room.room_name}}<br>{{door.to_room.data.number}}: {{door.to_room.room_name}}</td>
+		<td>{{door.data.Family}}</td> 
+		<td>{{door.data.frame}}</td>
+		<td>{{door.data.Door_Frame_Type}}</td>
+		<td>{{door.data.leaf}}</td>
+		<td>{{door.data.Door_Leaf_Type}}</td>
+		
+		<td>{{door.data.DoorHardware_Signage}}</td>
+		<td>{{door.data.DoorHardware_Protection}}</td>
+		<td>{{door.data.DoorHardware_Handle}}</td>
+		<td>{{door.data.DoorHardware_Hinge}}</td>
+		<td>{{door.data.DoorHardware_Closer}}</td>
+		<td>{{door.data.DoorHardware_DoorStop}}</td>
+		<td>{{door.data.DoorHardware_Keying}}</td>
+		<td>{{door.data.DoorHardware_Seal}}</td>
+		<td>-</td>
+		<td>A</td>
+		
+		{% endfor %}
+
+	{% else %}
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	{% endif %}
+</tr>
+{% endif %}
+{% endfor %}
+</table>

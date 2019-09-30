@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.1">
+	<Story Self="ue2" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Table Self="ue2i100" HeaderRowCount="1" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="{{d|length()}}" ColumnCount="7" AppliedTableStyle="TableStyle/$ID/[Basic Table]" TableDirection="LeftToRightDirection">
+					<Row Self="ue2i100Row0" Name="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="32.09842519684095" MinimumHeight="32.09842519684095" />
+					{% for f in d %}<Row Self="udcif2Row{{loop.index}}" Name="{{loop.index}}" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" MinimumHeight="{{f.ratio*52.8*2.8346456692913386440677966101695}}" AutoGrow="true" />{% endfor %}
+					<Column Self="ue2i100Column0" Name="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="39.68503937007875" />
+					<Column Self="ue2i100Column1" Name="1" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="127.55905511811021" />
+					<Column Self="ue2i100Column2" Name="2" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="62.36220472440945" />
+					<Column Self="ue2i100Column3" Name="3" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="76.53543307086615" />
+					<Column Self="ue2i100Column4" Name="4" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="149.6692913385827" />
+					<Column Self="ue2i100Column5" Name="5" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="149.6692913385827" />
+					<Column Self="ue2i100Column6" Name="6" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="149.6692913385827" />
+					<Cell Self="ue2i100i157" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Header" AppliedCellStylePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Code</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ue2i100i158" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Header" AppliedCellStylePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Description</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ue2i100i159" Name="2:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Header" AppliedCellStylePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Quantity</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ue2i100i15a" Name="3:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Header" AppliedCellStylePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Dimensions</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ue2i100i15b" Name="4:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Header" AppliedCellStylePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Image</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ue2i100i15c" Name="5:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Header" AppliedCellStylePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Comments</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ue2i100i15d" Name="6:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Header" AppliedCellStylePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Supplier</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+
+					{% for f in d|sort(attribute='CODE') %}
+					<Cell Self="ue2i100i0" Name="0:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" VerticalJustification="CenterAlign" ClipContentToCell="false">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{{f.CODE}}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ue2i100i1" Name="1:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{{f.DESCRIPTION}}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ue2i100i2" Name="2:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{{f.QUANTITY}}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+
+
+					<Cell Self="ue2i100i3" Name="3:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" ClipContentToCell="false">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{{f.DIMENSIONS}}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					{% if f.ADDRESS %}<Cell Self="ue2i100i4" Name="4:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="GraphicTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<Rectangle Self="u105" ContentType="GraphicType" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 0 0">
+							<Properties>
+								<PathGeometry>
+									<GeometryPathType PathOpen="false">
+										<PathPointArray>
+											<PathPointType Anchor="0 0" LeftDirection="0 0" RightDirection="0 0" />
+											<PathPointType Anchor="0 {{f.ratio*52.8*2.8346456692913386440677966101695}}" LeftDirection="0 {{f.ratio*52.8*2.8346456692913386440677966101695}}" RightDirection="0 {{f.ratio*52.8*2.8346456692913386440677966101695}}" />
+											<PathPointType Anchor="149.6692913385827 {{f.ratio*52.8*2.8346456692913386440677966101695}}" LeftDirection="149.6692913385827 {{f.ratio*52.8*2.8346456692913386440677966101695}}" RightDirection="149.6692913385827 {{f.ratio*52.8*2.8346456692913386440677966101695}}" />
+											<PathPointType Anchor="149.6692913385827 0" LeftDirection="149.6692913385827 0" RightDirection="149.6692913385827 0" />
+										</PathPointArray>
+									</GeometryPathType>
+								</PathGeometry>
+							</Properties>
+							<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+								<Properties>
+									<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+								</Properties>
+								<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+							</TextWrapPreference>
+							<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+							<FrameFittingOption AutoFit="true" FittingOnEmptyFrame="Proportionally" />
+							<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+								<Properties>
+									<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+									<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+								</Properties>
+							</ObjectExportOption>
+							<Image Self="uff" Space="$ID/#Links_RGB" ActualPpi="72 72" EffectivePpi="1912 1912" ImageRenderingIntent="UseColorSettings" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/JPEG" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.03765484619140625 0 0 0.03765484619140625 60.52913952925074 -1.7763568394002505e-15" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" Visible="true" Name="$ID/">
+								<Properties>
+									<Profile type="string">$ID/None</Profile>
+									<GraphicBounds Left="0" Top="0" Right="1200" Bottom="800" />
+								</Properties>
+								<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+									<Properties>
+										<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+									</Properties>
+									<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+								</TextWrapPreference>
+								<Link Self="u102" AssetURL="$ID/" AssetID="$ID/" LinkResourceURI="file:{{f.ADDRESS|replace(' ', '%20')|replace('&', '%26')}}" LinkResourceFormat="$ID/JPEG" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 131672990476360094 115331" LinkImportModificationTime="2018-04-04T17:04:07" LinkImportTime="2018-04-17T12:18:56" LinkResourceSize="0~1c283" />
+								<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+								<ImageIOPreference ApplyPhotoshopClippingPath="true" AllowAutoEmbedding="true" AlphaChannelName="$ID/" />
+							</Image>
+						</Rectangle>
+</Cell>{% else %}<Cell Self="ue2i100i4" Name="4:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>No Image</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>{% endif %}
+					<Cell Self="ue2i100i5" Name="5:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{{f.COMMENTS}}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ue2i100i6" Name="6:{{loop.index}}" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>{{f.SUPPLIER}}</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					{% endfor %}
+				</Table>
+				<Content></Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

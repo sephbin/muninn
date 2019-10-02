@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import *
 
+
 # Register your models here.
 class finishInline(admin.TabularInline):
     model = rel_finish
@@ -71,13 +72,13 @@ class roomAdmin(admin.ModelAdmin):
     ]
 
 class doorAdmin(admin.ModelAdmin):
-    search_fields=("mark", "data_text" , "from_room__element_id", "to_room__element_id",)
+    search_fields=("element_id", "mark", "data_text" , "from_room__element_id", "to_room__element_id",)
     readonly_fields = ( 'data', 'family', 'mark' )
     list_display = ['element_id','mark', 'family','parent_room','from_room','to_room','data',]
     list_filter = ('project',)
     fieldsets = [
         (None,{'fields': ['element_id','project','from_room','to_room','parent_room','data_text','data', 'mark']}),
-    ]
+    ] 
 
 class elementAdmin(admin.ModelAdmin):
     list_filter = ('project',)

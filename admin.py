@@ -46,7 +46,7 @@ class scheduleAdmin(admin.ModelAdmin):
 class typeAdmin(admin.ModelAdmin):
     search_fields=["type_name","data_text",]
     list_filter = ('project',)
-    list_display = ['project','type_name','data_text',]
+    list_display = ['id', 'project','type_name','data_text',]
     list_editable = ['type_name','data_text',]
     readonly_fields = ('data',)
     fieldsets = [
@@ -56,7 +56,7 @@ class typeAdmin(admin.ModelAdmin):
 class roomAdmin(admin.ModelAdmin):
     search_fields=("element_id", "room_name", "data_text", 'source_file', )
     readonly_fields = ('data', 'contentlist', 'doorslist', )
-    list_display = ["element_id","number_store",'room_name','room_type',
+    list_display = ["id","element_id","number_store",'room_name','room_type',
     # 'data',
     'source_file','project']
     list_filter = ('project', 

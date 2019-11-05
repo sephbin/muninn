@@ -5,6 +5,7 @@ from .models import *
 from .serializers import *
 from rest_framework import viewsets
 from rest_framework import filters
+from django_filters.rest_framework import DjangoFilterBackend
 import json
 from django.db import transaction
 import sys, os
@@ -22,8 +23,9 @@ def dblog(message):
 class RoomViewSet(viewsets.ModelViewSet):
 	queryset = room.objects.all()
 	serializer_class = RoomSerializer
-	filter_backends = (filters.SearchFilter,)
-	search_fields = ('project__number',)
+	filter_backends = [filters.SearchFilter ,DjangoFilterBackend]
+	filterset_fields = ['project__number',]
+	search_fields = ('data_text',)
 
 class RoomTypeViewSet(viewsets.ModelViewSet):
 	queryset = room_type.objects.all()
